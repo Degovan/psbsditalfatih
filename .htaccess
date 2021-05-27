@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^beranda$ dashboard.php [L]
+RewriteRule ^dashboard-siswa$ dashboard_siswa.php [L]
+RewriteRule ^jurnal\.html$ jurnal.php [L]
+RewriteRule ^hasil-pencarian\.html$ hasil_cari.php [L]
+RewriteRule ^daftar\.html$ daftar.php [L]
+RewriteRule ^login\.html$ login.php [L]
+RewriteRule ^logout\.html$ logout.php [L]
+RewriteRule ^formulir\.html$ formulir.php [L]
+RewriteRule ^edit-data\.html$ edit-data.php [L]
+RewriteRule ^hasil-pengumuman\.html$ hasil_peng.php [L]
+RewriteRule ^pengumuman\.html$ pengumuman.php [L]
+RewriteRule ^persyaratan\.html$ syarat.php [L]
+RewriteRule ^terdaftar\.html$ terdaftar.php [L]
+RewriteRule ^ubah-password\.html$ ubah_password.php [L]
+RewriteRule ^update-password\.html$ update_password.php [L]
+
+
+Options All -Indexes
+</IfModule>
