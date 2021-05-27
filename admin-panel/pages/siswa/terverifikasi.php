@@ -54,7 +54,7 @@
                 </td>
                 <td>
                   <input type="button" class="btn btn-info" name="reset" value="Detail" onclick="window.location='?page=detail-siswa&tid=<?php echo $a['no_daftar']; ?>' ">
-                  <input type="button" class="btn btn-info" name="reset" value="Cetak" onclick="window.location='?page=detail-siswa&tid=<?php echo $a['no_daftar']; ?>' ">
+                  <a href="/psbs/admin-panel/pages/laporan/cetak_siswa.php?no_daftar=<?= $a['no_daftar'] ?>" class="btn btn-info">Cetak</a>
 </td>
               </tr>
               <?php $no++ ; } ?>
